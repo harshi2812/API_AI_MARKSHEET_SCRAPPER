@@ -26,7 +26,7 @@ curl -X POST "[http://127.0.0.1:8000/extract/](http://127.0.0.1:8000/extract/)" 
 Setup and Run Locally
 Clone the repository:
 git clone https://github.com/harshi2812/API_AI_MARKSHEET_SCRAPPER.git
-cd YourRepoName
+  cd API_AI_MARKSHEET_SCRAPPER
 
 Create and activate a virtual environment:
 python -m venv venv
@@ -46,3 +46,4 @@ uvicorn main:app --reload
 
 
 The API will be available at http://127.0.0.1:8000.
+
